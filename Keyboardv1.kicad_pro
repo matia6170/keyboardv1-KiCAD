@@ -637,6 +637,18 @@
     [
       "c09949c4-fdfb-4bc0-953b-cf39a1691839",
       "Root"
+    ],
+    [
+      "f294f247-9321-4f16-8688-550938319f77",
+      "Key Matrix"
+    ],
+    [
+      "8bae06f5-b8b3-4679-8c48-1aec0acbb836",
+      "MCU"
+    ],
+    [
+      "5445ba19-95a9-4321-ac54-ec1ef0eb255d",
+      "Power"
     ]
   ],
   "text_variables": {}
