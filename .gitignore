@@ -1,0 +1,5 @@
+# KiCad Backups
+*-backups/
+*.zip
+_autosave-*
+*.bak
