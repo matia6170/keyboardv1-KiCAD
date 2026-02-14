@@ -3466,110 +3466,15 @@
 			(uuid "31b7a591-e310-4166-b382-a68020748cd7")
 		)
 		(instances
-			(project ""
-				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
-					(reference "U3")
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "U2")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 60.96 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18966c48-28b5-4867-b21d-8fd6a221b344")
-		(property "Reference" "P1"
-			(at 60.96 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 64.77 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 60.96 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S1"
-			(uuid "1a52ebcb-fd0d-4da5-84b8-b7ea4744c72f")
-		)
-		(pin "A12"
-			(uuid "1b37d856-b7ae-483f-a1a2-e7ea9360d4c8")
-		)
-		(pin "B1"
-			(uuid "fc28efd3-bd0e-403a-a88b-4e9db4e1033c")
-		)
-		(pin "A9"
-			(uuid "36cfa56a-63d2-42a1-9e2e-4edc3240163e")
-		)
-		(pin "B4"
-			(uuid "0eac2ce8-f635-413a-81eb-a9aa2e6b6f59")
-		)
-		(pin "B5"
-			(uuid "c2c28400-c5c2-4e35-ae86-95045aaec733")
-		)
-		(pin "A4"
-			(uuid "cfc45ae8-1bd4-4bd3-8314-d62cbc28e94a")
-		)
-		(pin "B12"
-			(uuid "ed387d73-e78e-4e5b-a676-c174f3dc87ba")
-		)
-		(pin "B9"
-			(uuid "4175655d-cb13-4ee1-9ef8-18bc59b3cdbc")
-		)
-		(pin "A1"
-			(uuid "76ec6d88-c135-4c03-8634-5667c6d92eef")
-		)
-		(pin "A5"
-			(uuid "c3467bd6-b3bd-455d-a0b2-94d46e3508ce")
-		)
-		(pin "A7"
-			(uuid "de23f6b9-12aa-420e-9281-f5451b88f9c4")
-		)
-		(pin "A6"
-			(uuid "40fbdf5b-c145-4eb6-a9b7-a5724f147830")
-		)
-		(instances
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
-					(reference "P1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3603,7 +3508,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 109.982 67.31 90)
 			(effects
 				(font
@@ -3637,6 +3542,12 @@
 			(uuid "a9ee78e0-c582-4e08-8892-6ea6025c838e")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "R5")
@@ -3673,7 +3584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 75.438 53.34 90)
 			(effects
 				(font
@@ -3707,6 +3618,12 @@
 			(uuid "4e7ceb0f-d0a5-4330-9562-fcba98be6736")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "Keyboardv1"
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "R4")
@@ -3773,6 +3690,12 @@
 			(uuid "d60d28a3-7f5c-4e18-a875-08379e655193")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "Keyboardv1"
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "#PWR03")
@@ -3807,7 +3730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 60.96 78.4352 0)
 			(effects
 				(font
@@ -3841,6 +3764,12 @@
 			(uuid "a64def58-7109-4e5d-a20d-60d4becac5a7")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "C2")
@@ -3907,6 +3836,12 @@
 			(uuid "fd9cfe26-85b8-4209-9252-93a67392a457")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "#PWR02")
@@ -3973,6 +3908,12 @@
 			(uuid "9550ecd9-afe4-47bb-878a-85460485d62b")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "Keyboardv1"
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "#PWR07")
@@ -4009,7 +3950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 73.66 45.72 0)
 			(effects
 				(font
@@ -4052,6 +3993,12 @@
 			(uuid "73a17eab-4f8f-4d2e-bbc8-03ed9254a5e9")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "D85")
@@ -4088,7 +4035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 179.832 63.5 90)
 			(effects
 				(font
@@ -4122,6 +4069,12 @@
 			(uuid "f67df29f-ca5e-401b-8de5-2cece64edf90")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "R1")
@@ -4213,6 +4166,12 @@
 			(uuid "2791336b-6a00-42b3-b98e-ae104cb3b37a")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "U2")
@@ -4422,6 +4381,12 @@
 			(uuid "1f4fe315-3793-4972-9806-090e58c23894")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "Q1")
@@ -4488,6 +4453,12 @@
 			(uuid "1d69208c-3df0-4952-9bb5-5292131fe35c")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "#PWR01")
@@ -4524,7 +4495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 60.96 45.72 0)
 			(effects
 				(font
@@ -4567,6 +4538,12 @@
 			(uuid "ddea320f-94a6-4e58-9224-d0d3db5c3a66")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "D1")
+					(unit 1)
+				)
+			)
 			(project "Keyboardv1"
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "D86")
@@ -4603,7 +4580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 223.012 83.82 90)
 			(effects
 				(font
@@ -4637,6 +4614,12 @@
 			(uuid "f9275663-9539-4fcd-b1f3-d8f74cf9e294")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "R2")
@@ -4673,7 +4656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 182.5752 78.74 0)
 			(effects
 				(font
@@ -4707,6 +4690,12 @@
 			(uuid "22154c88-ab9f-4ca6-87b4-be045c4a858a")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "C1")
@@ -4773,6 +4762,12 @@
 			(uuid "ffb4abd3-7a8b-4ff0-939b-6134012d6ba0")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "#PWR04")
@@ -4839,6 +4834,12 @@
 			(uuid "ee7389b0-f7f2-479d-bfae-ac2bffb7fa9b")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "#PWR05")
@@ -4905,6 +4906,12 @@
 			(uuid "94aaffd7-df3a-4864-bcfe-aeb638473a27")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "Keyboardv1"
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "#PWR06")
@@ -4941,7 +4948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 62.738 53.34 90)
 			(effects
 				(font
@@ -4975,6 +4982,12 @@
 			(uuid "5ee2eee8-9322-47c5-9b47-29e954ab4384")
 		)
 		(instances
+			(project "power"
+				(path "/72e06d6b-e0fe-4d43-bcdf-354f52685143"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
 					(reference "R3")
@@ -4983,4 +4996,111 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Connector:USB_C_Plug_USB2.0")
+		(at 60.96 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6c47020-49e8-4a9b-ab87-1a9c7743a109")
+		(property "Reference" "P1"
+			(at 60.96 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Plug_USB2.0"
+			(at 60.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only Type-C Plug connector"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "1fd60ec0-5faf-44dd-a64b-d5e8a026289d")
+		)
+		(pin "B4"
+			(uuid "ed3d1e2c-dd45-4da1-b154-bb151c73e63a")
+		)
+		(pin "S1"
+			(uuid "71d3eaa7-8430-434a-9b0f-ecc45c726f45")
+		)
+		(pin "A9"
+			(uuid "e0c6a60a-06c4-4d24-a175-b87781be1672")
+		)
+		(pin "A4"
+			(uuid "6f609630-a5b6-4996-a722-0483cf20a9cf")
+		)
+		(pin "B12"
+			(uuid "1ec4e2c2-1983-4653-adcb-d6e6b68050e0")
+		)
+		(pin "B1"
+			(uuid "06078b3e-522a-45ad-b743-01d98cab8c2a")
+		)
+		(pin "A12"
+			(uuid "c8c12e30-01f8-4301-a96d-421f901569c6")
+		)
+		(pin "B9"
+			(uuid "92eb27d4-20b2-4e3a-98cd-90e04c35b57f")
+		)
+		(pin "A5"
+			(uuid "2db6421a-2f9e-4259-8e22-47ff7b309cd5")
+		)
+		(pin "B5"
+			(uuid "6ed60667-45af-4e91-aa51-841a7ba4c96f")
+		)
+		(pin "A7"
+			(uuid "d1d594e1-e81f-4324-b69b-f04ed876e2a6")
+		)
+		(pin "A6"
+			(uuid "376a758a-29ae-460b-ac9a-a177f3b3adad")
+		)
+		(instances
+			(project ""
+				(path "/c09949c4-fdfb-4bc0-953b-cf39a1691839/5445ba19-95a9-4321-ac54-ec1ef0eb255d"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
