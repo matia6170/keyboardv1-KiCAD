@@ -3,3 +3,8 @@
 *.zip
 _autosave-*
 *.bak
+
+
+3DxService.log
+out/
+
